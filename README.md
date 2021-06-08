@@ -1,1 +1,7 @@
-Lab 3-4 with local database and without 4, LOL 
+deployed on digital ocean, accessible on http://159.89.84.181:8000/
+
+to run locally: 
+- $ git clone https://github.com/alicecoal/Python_Lab34.git 
+- $ docker-compose up 
+
+Возникла небольшая проблема с товарами при деплое, в процессе фикса
