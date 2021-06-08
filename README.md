@@ -5,3 +5,7 @@ to run locally:
 - $ docker-compose up 
 
 Возникла небольшая проблема с товарами при деплое, в процессе фикса
+
+![image](https://user-images.githubusercontent.com/55826181/121185432-bd21d180-c86e-11eb-9970-9f8402344493.png)
+
+(так выглядеть должно)
