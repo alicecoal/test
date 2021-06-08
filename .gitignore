@@ -1,13 +1,3 @@
-# Created by .ignore support plugin (hsz.mobi)
-.idea/.gitignore
-.idea/ZZShop.iml
-.idea/inspectionProfiles/
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/ZZShop-master.iml
-.idea/jsLibraryMappings.xml
-.idea/watcherTasks.xml
 venv
 vevv
 
