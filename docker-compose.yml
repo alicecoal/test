@@ -11,7 +11,7 @@ services:
     volumes:
       - shop-vol:/var/lib/postgresql/data
   web:
-    image: zz-shop
+    image: alicecoal/shop
     container_name: zz-shop
     user: appuser
     build: ./shop
