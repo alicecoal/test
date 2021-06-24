@@ -19,7 +19,7 @@ CATEGORY_CHOICES = (
 class Product(models.Model):
     slug = models.AutoField(primary_key=True)
     category = models.CharField(max_length=15, verbose_name='Category', choices=CATEGORY_CHOICES, default="Product")
-    img = models.ImageField(upload_to='shop', blank=False)
+    img = models.ImageField(upload_to='shop', blank=True)
     name = models.CharField(max_length=300)
     preview_text = models.TextField(max_length=200, verbose_name='Preview Text')
     detail_text = models.TextField(max_length=1000, verbose_name='Detail Text')
