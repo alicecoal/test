@@ -3,16 +3,15 @@ services:
   postgresql:
     image: postgres:latest
     hostname: postgresql
-    container_name: shop-db
+    container_name: shop-db3
     env_file:
       - postgres/.env
     volumes:
       - shop-vol:/var/lib/postgresql/data
   web:
-    image: alicecoal/shop
-    container_name: zz-shop
+    image: alicecoal/shop:latest
+    container_name: zz-shop3
     user: appuser
-    build: ./shop
     env_file:
       - postgres/.env
       - shop/.env.prod
